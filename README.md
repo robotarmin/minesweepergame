@@ -1,0 +1,7 @@
+So this is just me learning how to make a basic android app. I named the repo minesweeper, but it will be a long time to get to that level. Just playing around now. <br>
+from the prevous repo (lol):
+>my first android app (it will probably be a minesweeper game) I will create a sort of tutorial here as I scrape various online sources about building an app.
+The best idea is to probably start with this tutorial: https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app
+As I am doing this whole project for the Github Arcade thing I will not strictly follow the tutorial/I will try to make it my own thing somehow.
+Installation takes some time, in which I will update this file with things like: I use OpenSUSE Tumbleweed right now so this whole project thing will be done on linux. I honestly do not think Android Studio for Linux differs much from the Windows or Mac edition.
+And as a start I simply cannot figure out where to find the Design tab to actually see what my example application looks like:( nvm I got it after tweaking the settings a bit and looking up on stackoverflow ACCIDENTALLY CREATED ANOTHER REPO. WHATEVER.
