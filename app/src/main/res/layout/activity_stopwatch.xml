@@ -34,4 +34,14 @@
         android:layout_marginTop="8dp"
         android:onClick="onClickReset"
         android:text="@string/reset" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/github_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Github icon"
+        android:src="@drawable/ic_fab_github"
+        android:onClick="onClickGithub"/>
+
 </LinearLayout>

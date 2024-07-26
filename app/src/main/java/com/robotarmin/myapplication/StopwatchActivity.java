@@ -1,13 +1,24 @@
 package com.robotarmin.myapplication;
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.os.Bundle;
 import java.util.Locale;
 import android.widget.TextView;
+import android.widget.Button;
 
 public class StopwatchActivity extends Activity {
+    public void onClickGithub(View view)
+    {
+        String url = "https://github.com/robotarmin/minesweepergame";
 
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
     // Use seconds, running and wasRunning respectively
     // to record the number of seconds passed,
     // whether the stopwatch is running and
@@ -22,6 +33,7 @@ public class StopwatchActivity extends Activity {
     private boolean running;
 
     private boolean wasRunning;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">libanoni minipalacsinta</string>
+    <string name="app_name">LM Stopwatch Thing</string>
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="reset">Reset</string>
