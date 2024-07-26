@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_gravity="bottom"
     android:orientation="vertical">
 
@@ -42,7 +43,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -55,4 +56,10 @@
             android:onClick="onClickGithub"
             android:src="@drawable/ic_fab_github"
             android:visibility="visible" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_nav_menu"/>
+
 </LinearLayout>
