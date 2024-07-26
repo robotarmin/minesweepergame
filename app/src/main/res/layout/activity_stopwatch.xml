@@ -3,14 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+
     <TextView
         android:id="@+id/time_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textAppearance="@android:style/TextAppearance.Large"
-        android:textSize="56sp" />
+        android:textSize="70sp" />
 
     <Button
         android:onClick="onClickStart"
@@ -39,8 +42,8 @@
         android:id="@+id/github_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:contentDescription="Github icon"
+        android:layout_gravity="end"
+        android:contentDescription="@string/github_icon"
         android:src="@drawable/ic_fab_github"
         android:onClick="onClickGithub"/>
 
