@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_gravity="bottom"
-    >
+    android:orientation="vertical">
+
         <TextView
             android:id="@+id/time_view"
             android:layout_width="wrap_content"
@@ -13,20 +13,26 @@
             android:layout_gravity="center_horizontal"
             android:textAppearance="@android:style/TextAppearance.Large"
             android:textSize="70sp" />
-        <Button
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/start_button"
+            style="Name:	@style/TextAppearance.AppCompat.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:onClick="onClickStart"
             android:text="@string/start" />
-        <Button
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/stop_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
             android:onClick="onClickStop"
             android:text="@string/stop" />
-        <Button
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/reset_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,16 +42,17 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="421dp">
-        </Space>
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/github_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
+            android:layout_margin="20dp"
             android:contentDescription="@string/github_icon"
             android:onClick="onClickGithub"
             android:src="@drawable/ic_fab_github"
-            android:layout_marginEnd="20dp"
-            />
+            android:visibility="visible" />
 </LinearLayout>
