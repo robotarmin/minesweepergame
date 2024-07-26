@@ -1,4 +1,4 @@
-So this is just me learning how to make a basic android app. I named the repo minesweeper, but it will be a long time to get to that level. Just playing around now. <br>
+This is just me learning how to make a basic android app. I named the repo minesweeper, but it will be a long time to get to that level. Now I am just figuring out the usage of Android Studio, and learning how to use Github properly too.<br>
 from the prevous repo (lol):
 >my first android app (it will probably be a minesweeper game) I will create a sort of tutorial here as I scrape various online sources about building an app.
 The best idea is to probably start with this tutorial: https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app
